@@ -1,0 +1,25 @@
+{
+  "evaluation_note": "Both routing strategies were evaluated on the same aggregate forecast, distributed using tower traffic shares observed at the forecast origin.",
+  "baseline": {
+    "total_link_records": 8448,
+    "active_link_records": 8288,
+    "congested_active_link_records": 68,
+    "congestion_rate_active_records_percent": 0.8204633204633204,
+    "peak_active_utilization_percent": 982.7777728735293,
+    "mean_active_utilization_percent": 6.733940821019722,
+    "mean_unrouted_demand_gbps_per_interval": 0.0,
+    "max_unrouted_demand_gbps_per_interval": 0.0
+  },
+  "dynamic_optimization": {
+    "total_link_records": 8448,
+    "active_link_records": 8320,
+    "congested_active_link_records": 30,
+    "congestion_rate_active_records_percent": 0.3605769230769231,
+    "peak_active_utilization_percent": 97.50478394659548,
+    "mean_active_utilization_percent": 3.702501535857479,
+    "mean_unrouted_demand_gbps_per_interval": 0.0,
+    "max_unrouted_demand_gbps_per_interval": 0.0
+  },
+  "congestion_rate_reduction_percent": 56.05203619909502,
+  "peak_utilization_reduction_percent": 90.07865392992123
+}

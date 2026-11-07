@@ -1,0 +1,16 @@
+{
+  "threshold_percent": 80.0,
+  "forecast_lead_time_minutes": 30,
+  "link_interval_records": 8448,
+  "actual_bottleneck_records": 68,
+  "predicted_bottleneck_records": 68,
+  "true_positives": 66,
+  "false_positives": 2,
+  "false_negatives": 2,
+  "precision": 0.9705882352941176,
+  "recall": 0.9705882352941176,
+  "f1": 0.9705882352941176,
+  "actual_congestion_episodes": 4,
+  "episodes_flagged_at_least_once_percent": 100.0,
+  "episodes_flagged_at_onset_percent": 75.0
+}

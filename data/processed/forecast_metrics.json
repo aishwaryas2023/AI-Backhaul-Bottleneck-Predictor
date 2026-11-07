@@ -1,0 +1,26 @@
+{
+  "train_samples": 1532,
+  "test_samples": 384,
+  "purged_boundary_samples": 2,
+  "prediction_horizon_minutes": 30,
+  "mae_gbps": 0.07605055509799284,
+  "rmse_gbps": 0.14188229380029765,
+  "r2": 0.9978734278648125,
+  "persistence_mae_gbps": 0.33989973958333336,
+  "mae_improvement_percent": 77.62559183151492,
+  "features": [
+    "total_demand_gbps",
+    "lag_1",
+    "lag_2",
+    "lag_4",
+    "lag_8",
+    "lag_96",
+    "rolling_mean_4",
+    "rolling_mean_8",
+    "target_hour",
+    "target_minute",
+    "target_dayofweek",
+    "target_is_weekend",
+    "target_is_festival"
+  ]
+}
